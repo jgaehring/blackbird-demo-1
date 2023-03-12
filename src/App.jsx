@@ -1,3 +1,4 @@
+import Dashboard from './components/Dashboard'
 import Starter from './components/Starter'
 
 import './App.css'
@@ -5,7 +6,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Starter/>
+      <Dashboard name="Blackbird">
+        <Starter/>
+      </Dashboard>
     </div>
   )
 }
